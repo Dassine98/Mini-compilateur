@@ -1,0 +1,15 @@
+Program program01
+PDEC
+y | j: Pint;
+@define Pint x = 0;
+p : Pfloat;
+PINST
+Begin
+y <-- 1 / x;
+j <-- p;
+FOR i <-- 1 WHILE 5
+DO
+DO j <-- 1  IF : ((y < 3)|(x == 3)) 
+ELSE i <-- 2 ENDIF
+ENDFOR
+End
